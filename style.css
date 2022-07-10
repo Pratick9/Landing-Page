@@ -149,7 +149,7 @@ nav{
     }
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 3px){
     .presentation{
         flex-direction: column;
     }
@@ -180,4 +180,36 @@ nav{
         opacity: 0.2;
     }
 }
+@media screen and (max-width: 404px){
+    .presentation{
+        flex-direction: column;
+    }
+    .introduction{
+        margin: 5vh;
+        text-align: center;
+    }
+    .intro-text h1{
+        font-size: 30px;
+    }
+    .intro-text p{
+        font-size: 18px;
+    }
+    .cta{
+        padding: 10px 0px 0px 0px;
+    }
+    .laptop-select{
+        bottom: 5%;
+        right: 50%;
+        width: 50%;
+        transform: translate(50% ,5%);
+    }
+    .cover img {
+		height: 80%;
+        width: 80%;
+	}
+    .small-circle,.big-circle,.mid-circle{
+        opacity: 0.2;
+    }
+}
+
 
